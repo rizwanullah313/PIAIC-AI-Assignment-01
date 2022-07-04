@@ -3,14 +3,14 @@
 name = input("Enter Student Name: ")
 rollno = int(input("Enter Student Roll Number: "))
 Math = float(input("Enter Math Marks of "+name+" : "))
-Physics = float(input("Enter Math Marks of "+name+" : "))
-Chemisrty = float(input("Enter Math Marks of "+name+" : "))
-English = float(input("Enter Math Marks of "+name+" : "))
+Physics = float(input("Enter Physics Marks of "+name+" : "))
+Chemisrty = float(input("Enter Chemisrty Marks of "+name+" : "))
+English = float(input("Enter English Marks of "+name+" : "))
 
-MathGrade=" "
-ph_Grade =" "
-chemistry_Grade = " "
-englishGrade = " "
+MathGrade=""
+ph_Grade =""
+chemistry_Grade = ""
+englishGrade = ""
 
 if(Math>50):
     MathGrade = "pass"
